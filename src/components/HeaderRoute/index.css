@@ -1,0 +1,93 @@
+.nav-container {
+  background-size: cover;
+  background-color: #ffffff;
+  width: 1300px;
+  height: 64px;
+  border-bottom: 1px solid #bcc4d1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-website-logo {
+  width: 59px;
+  height: 30px;
+  top: 17px;
+  left: 200px;
+}
+
+.nav-tag-line {
+  width: 102px;
+  height: 24px;
+  top: 20px;
+  left: 271px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 50%;
+}
+.search-element {
+  height: 35px;
+  width: 250px;
+  padding-left: 10px;
+  border: 1px solid #dbdbdb;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+.list-item {
+  background-color: #989898;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.list-item-home {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4094ef;
+}
+
+.list-item-profile {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+.logout-element {
+  height: 40px;
+}
+
+.logout-button {
+  height: 40px;
+  width: 100px;
+  background: #4094ef;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
